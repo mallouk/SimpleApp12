@@ -6,8 +6,8 @@ package mallouk.musicstreamer;
 public class AmazonAccountKeys {
 
     //Defined instance variables
-    private static String publicKey = "AKIAINNT762GDAWZIIYA";
-    private static String privateKey = "PUpuG36zPvy2PKIWvTSPHMuOnjgRcaUptw6/vmU9";
+    private static String publicKey = "";
+    private static String privateKey = "";
     private static String appFolder = "/MusicStreamer";
 
     /** Constructor that defines initial properties
