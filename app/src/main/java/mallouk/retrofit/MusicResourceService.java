@@ -19,10 +19,10 @@ import retrofit2.http.Path;
 public interface MusicResourceService {
     @Headers({"Accept: application/json"})
     @GET("/users/{user}")
-    Call<List<ResponseBody>> greetUser(@Path("user") String user) throws Exception;
+    Call<ResponseBody> greetUser(@Path("user") String user) throws Exception;
 
     @Headers("Content-type: application/json")
     @POST("/api/post_some_data")
-    Call<List<ResponseBody>> getVectors(@Body JsonObject jsonObj);
+    Call<ResponseBody> getVectors(@Body JsonObject jsonObj);
 
 }
